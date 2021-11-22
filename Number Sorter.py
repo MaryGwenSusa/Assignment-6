@@ -30,5 +30,6 @@ while rep <= 4: # condition for one input line taken but can have specific repet
         elif inputNumber > lowest:
             lowest = inputNumber
     rep += 1 # increment for number sequence of input function repetition
-    
+lse:
+    print(f"\033[92m The order from \033[00m \033[94m HIGHEST \033[00m \033[92m to \033[00m \033[93m lowest \033[00m  \033[92m are \33[95m{highest: .2f},\33[00m \033[91m{secondHighest: .2f},\33[00m \33[93m{secondLowest: .2f},\33[00m \033[92m and \33[00m \033[91m{lowest: .2f}.\033[00m")
 
