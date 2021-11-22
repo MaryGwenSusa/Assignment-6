@@ -10,6 +10,12 @@ while rep <= 4: # condition for one input line taken but can have specific repet
     if inputNumber <= -1: # consider first initialization is zero
         print("\033[42m I'm sorry, I don't understand numbers below 1.\033[00m \033[93m Please input other numbers.\033[00m")
         continue
+    else:
+        if inputNumber > highest:
+            lowest = secondLowest
+            secondLowest = secondHighest
+            secondHighest = highest
+            highest = inputNumber
     rep += 1 # increment for starting number of repetition of input function
     
 
