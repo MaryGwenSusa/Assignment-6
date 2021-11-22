@@ -16,6 +16,10 @@ while rep <= 4: # condition for one input line taken but can have specific repet
             secondLowest = secondHighest
             secondHighest = highest
             highest = inputNumber
+        elif  inputNumber > secondHighest:
+            lowest = secondLowest
+            secondLowest = secondHighest
+            secondHighest = inputNumber
     rep += 1 # increment for starting number of repetition of input function
     
 
