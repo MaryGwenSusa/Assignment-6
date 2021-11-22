@@ -27,6 +27,8 @@ while rep <= 4: # condition for one input line taken but can have specific repet
         elif inputNumber > secondLowest:
             lowest = secondLowest
             secondLowest = inputNumber
+        elif inputNumber > lowest:
+            lowest = inputNumber
     rep += 1 # increment for number sequence of input function repetition
     
 
