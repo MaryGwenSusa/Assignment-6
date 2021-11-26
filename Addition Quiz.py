@@ -19,3 +19,8 @@ quizScore = 0 # first initialization (for creating variables with changing value
 number = 1 # second initialization
 """These are variables created for changeable value
 """
+
+digit1 = random.randint(0,99)
+digit2 = random.randint(0,99)
+print(f"Question #" + str(number)) 
+correct = determineAns()
