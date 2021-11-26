@@ -24,3 +24,9 @@ digit1 = random.randint(0,99)
 digit2 = random.randint(0,99)
 print(f"Question #" + str(number)) 
 correct = determineAns()
+if correct == True:
+    quizScore +=1
+
+
+print(f"\033[33mYour final score is {quizScore}/10. Do {quizScore} claps for yourself today.\033[00m")
+
