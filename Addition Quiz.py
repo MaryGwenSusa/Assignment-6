@@ -13,3 +13,6 @@ def determineAns():
         return True
     else:
         print("\033[92mPlease, try again! ^_^\033[00m")
+
+header()
+
