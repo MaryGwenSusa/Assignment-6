@@ -15,4 +15,7 @@ def determineAns():
         print("\033[92mPlease, try again! ^_^\033[00m")
 
 header()
-
+quizScore = 0 # first initialization (for creating variables with changing values)
+number = 1 # second initialization
+"""These are variables created for changeable value
+"""
